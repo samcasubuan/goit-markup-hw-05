@@ -69,7 +69,6 @@ img {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  line-height: 1.71;
   font-weight: 800;
 }
 
@@ -134,7 +133,7 @@ img {
 
 .nav-menu .page:hover,
 .nav-menu .page:focus,
-.nav-menu .page-current,
+.nav-menu .page.current,
 .contacts-menu .contact:hover,
 .contacts-menu .contact:focus {
   color: var(--oceancolor);
@@ -602,7 +601,6 @@ page:focus::after {
 }
 
 .footer-block {
-  margin-top: 12px;
   margin-left: 123px;
 }
 
@@ -610,7 +608,7 @@ page:focus::after {
   padding-top: 16px;
   display: flex;
   justify-content: flex-start;
-  gap: 10px;
+  gap: 16px;
 }
 
 .icon-item {
@@ -629,7 +627,7 @@ page:focus::after {
   color: var(--cloud, #f4f4fd);
   text-align: left;
   line-height: 1.5;
-  padding-top: 17px;
+  padding-top: 16px;
 }
 
 .studio-footer {
